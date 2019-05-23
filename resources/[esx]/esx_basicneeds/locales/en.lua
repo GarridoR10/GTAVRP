@@ -1,10 +1,10 @@
 Locales['en'] = {
-
-	['used_bread'] = 'you have used 1x bread',
-	['used_water'] = 'you have used 1x water',
-	['used_beer'] = 'you have used 1x beer',
-	['used_lockpick'] = 'you have used 1x lockpick',
-	['used_vodka'] = 'you have used 1x vodka',
-	['used_coffee'] = 'you have used 1x coffee',
-
+  ['used_bread'] = 'you ate ~y~1x~s~ ~b~bread~s~',
+  ['used_hamburger'] = 'you ate ~y~1x~s~ ~b~burger~s~',
+  ['used_water'] = 'you drank ~y~1x~s~ ~b~water~s~',
+  ['used_vodka'] = 'you drank ~y~1x~s~ ~b~vodka~s~',
+  ['used_beer'] = 'you drank ~y~1x~s~ ~b~beer~s~',
+  ['used_medikit'] = 'you used ~y~1x~s~ ~b~medikit~s~',
+  ['used_bandage'] = 'you used ~y~1x~s~ ~b~bandage~s~',
+  ['used_coffee'] = 'you drank ~y~1x~s~ ~b~coffee~s~',
 }
