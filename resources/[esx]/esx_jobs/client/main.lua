@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Firstyminator 
-4
-6 47 ESX-Org/esx_jobs
- Code  Issues 9  Pull requests 4  Wiki  Insights
-esx_jobs/client/main.lua
-@ElPumpo ElPumpo Check IsControlJustReleased() every frame
-5453404 on 30 Dec 2018
-502 lines (424 sloc)  13.4 KB
-    
 local Keys = {
   ["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57,
   ["~"] = 243, ["1"] = 157, ["2"] = 158, ["3"] = 160, ["4"] = 164, ["5"] = 165, ["6"] = 159, ["7"] = 161, ["8"] = 162, ["9"] = 163, ["-"] = 84, ["="] = 83, ["BACKSPACE"] = 177,
@@ -263,14 +245,12 @@ function refreshBlips()
 	local blipInfo = {}
 
 	if PlayerData.job ~= nil then
- 
 		for jobKey,jobValues in pairs(Config.Jobs) do
 
 			if jobKey == PlayerData.job.name then
 				for zoneKey,zoneValues in pairs(jobValues.Zones) do
-
-					if zoneValues.Blip then
-														   
+				
+					if zoneValues.Blip then														   
 						local blip = AddBlipForCoord(zoneValues.Pos.x, zoneValues.Pos.y, zoneValues.Pos.z)
 						SetBlipSprite  (blip, jobValues.BlipInfos.Sprite)
 						SetBlipDisplay (blip, 4)
@@ -287,7 +267,6 @@ function refreshBlips()
 				end
 			end
 		end
- 
 	end
 end
 
@@ -520,15 +499,3 @@ Citizen.CreateThread(function()
 	RequestIpl("id2_14_during_door")
 	RequestIpl("id2_14_during1")
 end)
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
