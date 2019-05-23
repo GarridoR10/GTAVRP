@@ -1,0 +1,42 @@
+[
+	{
+		"useBackgroundColour" : "true",
+		"backgroundColour" : "20,20,20",
+		"useBackgroundImage" : "true",
+		"backgroundImagePath" : "images/backgroundImg8.jpg",
+		"useTextColour" : "false",
+		"textColour" : "0,0,0",
+		"useBoldText" : "false",
+		"serverTitle" : "NoElite Gaming FiveM",
+		"playAudioInBackground" : "false",
+		"YTVideoID" : "HPc8QMycGno",
+		"videoVolume" : "5"
+	},
+	{
+		"rule1" : "Do not RDM or VDM",
+		"rule2" : "A microphone is a requirement",
+		"rule3" : "Do not abuse/exploit bugs",
+		"rule4" : "Do not use cheats",
+		"rule5" : "No racism",
+		"rule6" : "Do not harass others",
+		"rule7" : "Use common sense"
+	},
+	{
+		"servers1" : "Website: www.noelite.no",
+		"servers2" : "---_---",
+		"servers3" : "Discord: http://discord.gg/SArw5yD",
+		"servers4" : "Do Not Raid LSPD Stations",
+		"servers5" : "Hostages And Snipers Need Announcing",
+		"servers6" : "No Stealing Military Vehicles",
+		"servers7" : "Always Value Your Lifes"
+	},
+	{
+		"content1" : "Character Customization",
+		"content2" : "Purchasable & Storable Vehicles",
+		"content3" : "Whitelisted Police Force",
+		"content4" : "Multiple Jobs (mining, fishing, drugs, etc)",
+		"content5" : "Banks & ATMs",
+		"content6" : "Custom Vehicle Models",
+		"content7" : "Cellphone Messaging"
+	}
+]

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+@font-face {
+	font-family: bankgothic;
+	src: url('fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('fonts/pdown.ttf');
+}
+
+body, html {
+	overflow: hidden;
+}
+
+.background {
+	font-family: bankgothic;
+    height: 40px;
+    min-width: 400px;
+	position: absolute;
+	right: 40px;
+	bottom: 539px;
+	background-color: #5772e6;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.background2 {
+	font-family: bankgothic;
+    height: 40px;
+    min-width: 400px;
+	position: absolute;
+	right: 40px;
+	bottom: 539px;
+	background-color: #5772e6;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.general {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.esx {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.jobs {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.vehicleControls {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.character {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.deleteCharacter {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.doorControls {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.individualDoorControls {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.windowControls {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.individualWindowControls {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.interactions {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.idcard {
+	height: 500px;
+	background-image: url("bg.jpg");
+	color: white;
+	right: 40px;
+	bottom: 40px;
+	width: 400px;
+	position: absolute;
+}
+
+.id {
+	font-family: bankgothic;
+	font-size: 15px;
+	margin: 0px 0px;
+	padding: 10px 24px;
+	background-color: #f1f1f1;
+	border:1px solid #bababa;
+	color: #3A3A3A;
+	height: 32px;
+	line-height: 12px;
+	display: block;
+	width: 400px;
+	position: relative;
+	top: 49.3%;
+	left: 77.30%;
+
+}
+
+/* main.css */
+button {
+	cursor: pointer;
+	height: 32px;
+	line-height: 28px;
+	width: 400px;
+	display: block;
+	font-family: bankgothic;
+	font-size: 15px;
+	color: #3A3A3A;
+    background-color: #f1f1f1;
+	border:1px solid #bababa;
+	animation: pulse 2s infinite;
+}
+
+button:hover {
+	background-color:#d0d0d0;
+	animation: none;
+}
+
+button:active {
+	border:1px solid #bababa;
+}
+
+.delete {
+	font-family: bankgothic;
+	font-size: 15px;
+	margin: 0px 0px;
+	padding: 10px 24px;
+	background-color: #f1f1f1;
+	border:1px solid #bababa;
+	color: #3A3A3A;
+	height: 32px;
+	line-height: 12px;
+	display: block;
+	width: 400px;
+	position: relative;
+	top: 49.3%;
+	left: 77.30%;
+
+}
+
+#close {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	padding-right: 10px;
+	color: rgb(255, 0, 0);
+}

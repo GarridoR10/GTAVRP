@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<!-- Aircraft Missile -->
+		<Item>
+			<modelName>war_usa_aim9m8</modelName>
+			<txdName>war_usa_aim9m8</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>war_usa_aim9</modelName>
+			<txdName>war_usa_aim9</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>war_usa_aim7</modelName>
+			<txdName>war_usa_aim7</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>war_usa_aim54c</modelName>
+			<txdName>war_usa_aim54c</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>war_usa_agm65</modelName>
+			<txdName>war_usa_agm65</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<!-- Helicopter Missile -->
+		<Item>
+			<modelName>war_usa_hellfire</modelName>
+			<txdName>war_usa_hellfire</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<!-- Aircraft Rocket Pod -->
+		<Item>
+			<modelName>war_plane_rocket</modelName>
+			<txdName>war_plane_rocket</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>war_helicopter_rocket</modelName>
+			<txdName>war_helicopter_rocket</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<!-- Aircraft Bombs -->
+		<Item>
+			<modelName>war_usa_bomb</modelName>
+			<txdName>war_usa_bomb</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>war_usa_paveway</modelName>
+			<txdName>war_usa_paveway</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<!-- Vehicle Missile -->
+		<Item>
+			<modelName>war_m142_artillery</modelName>
+			<txdName>war_m142_artillery</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

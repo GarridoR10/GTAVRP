@@ -1,0 +1,153 @@
+{
+  "reseau": "NoE",
+  
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+  
+  "useWebRTCVocal": false,
+
+  "useFormatNumberFrance": false,
+
+  "background" : {
+    "Calvin & Hobbes": "back001.jpg",
+    "Destiny": "back002.jpg",
+    "Stormtrooper": "back003.jpg",
+    "The V": "back004.jpg",
+    "Custom URL": "URL"
+  },
+  "background_default": {
+    "label": "Calvin & Hobbes",
+    "value": "back001.jpg"
+  },
+
+
+  "coque": {
+    "Sansumg S8": "s8.png",
+    "Iphone X": "iphonex.png",
+    "Brick Base": "base.png",
+    "Transparent": "transparent.png"
+  },
+  "coque_default": {
+    "label": "Samsung S8",
+    "value": "s8.png"
+  },
+
+
+"serviceCall": [
+    {
+      "display": "Police",
+      "backgroundColor": "blue",
+      "subMenu": [
+        {
+          "title": "Send Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "backgroundColor": "red",
+      "subMenu": [
+        {
+          "title": "Send a Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Mechanic",
+      "backgroundColor": "green",
+      "subMenu": [
+        {
+          "title": "Send a Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "mechanic"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Phone",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Messages",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Contacts",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Settings",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Bank",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "inHomePage": true
+    },
+    {
+      "name": "Bourse",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": false
+    },
+    {
+      "name": "Photo",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo",
+      "inHomePage": true
+    },
+    {
+      "name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat",
+      "inHomePage": true
+    },
+    {
+      "name": "9GAG",
+      "icons": "/html/static/img/icons_app/9gag.png",
+      "routeName": "9gag",
+      "inHomePage": true
+    }
+  ]
+}

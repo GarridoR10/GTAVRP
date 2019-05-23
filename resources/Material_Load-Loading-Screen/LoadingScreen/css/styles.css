@@ -1,0 +1,101 @@
+body
+{
+	background-color: rgb(20,20,20);
+	overflow: hidden;
+}
+
+.backgroundcolour
+{
+	background-color: rgb();
+}
+
+.bold-text
+{
+	font-weight: 400;
+}
+
+.light-text
+{
+	font-weight: 100;
+}
+
+.meme
+{
+	position: fixed;
+    bottom: 0;
+    padding-right: 20px;
+    width: 50%;
+    font-size: 12pt;
+    text-align: right;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.cube1, .cube2 {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+  100% { -webkit-transform: rotate(-360deg) }
+}
+
+@keyframes sk-cubemove {
+  25% { 
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  } 50% { 
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  } 50.1% { 
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  } 75% { 
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  } 100% { 
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+#lists > li
+{
+	padding: 10px; 
+	min-height: 2.8em;
+	text-align: left;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#lists > li:nth-child(even)
+{
+	background-color: rgb(25,25,25);
+}
+
+#lists > li:nth-child(odd)
+{
+	background-color: rgb(30,30,30);
+}

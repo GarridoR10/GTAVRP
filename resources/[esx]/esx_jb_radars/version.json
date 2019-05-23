@@ -1,0 +1,7 @@
+{
+  "version":"2.0.1",
+  "patchnote" : [
+    "- global fixes",
+    "- added french sound when appoching radars (if having the coyotteitem enabled)"
+  ]
+}

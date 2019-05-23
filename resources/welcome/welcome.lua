@@ -1,0 +1,5 @@
+AddEventHandler("playerSpawned", function(spawn)
+TriggerEvent("chatMessage", "", { 255, 255, 255 }, "Welcome to the NoElite FiveM Server")
+TriggerEvent("chatMessage", "", { 255, 255, 255 }, "Join our discord at https://discordapp.com/invite/SArw5yD ")
+TriggerEvent("chatMessage", "", { 255, 255, 255 }, "Website www.noelite.no")
+end)

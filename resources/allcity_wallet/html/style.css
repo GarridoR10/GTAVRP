@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family: 'Edo';
+  src: url('font/edosz.ttf');  
+}
+
+body { background: url('img/bg/bg-body-test.jpg'); font-family: 'Edo'; color: white;  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; }
+
+#wrapperHUD {
+	opacity: 0;
+	margin-top: 10vh;
+	/*margin: 0 auto;*/
+	margin-left: -20vw;/*-7px*/;
+	display: flex; 
+	flex-direction: row;
+	height: 50vh;
+	width: 18vw;
+	background: url(img/bg/moon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 1px solid #333;
+}
+
+#bankDiv, #walletDiv, #blackMoneyDiv, #societyDiv {
+	margin: 0 auto;
+	margin-left: 12px;
+	display: flex;
+	height: 10vh;
+	width: 15vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 3px solid rgba(255,255,255,0.1);
+	border-left: none;
+	border-right: none;
+	border-radius: 25px;
+}
+
+#walletDiv {border-top: none;}
+#societyDiv {border-bottom: none; border-top: none;}
+#bankDiv {border-top: none;}
+#blackMoneyDiv {border-top: none;}
+
+#bank, #wallet, #blackMoney, #society {
+	display: none;
+	font-family: 'Edo';
+	color: white;
+	font-size: 30px;
+	width: 200px;
+	height: 35px;	
+}
+
+#job {
+	height: 30px;
+	width: 400px;
+	border: black 1px solid;
+	font-size: 25px;	
+}
+
+#moneySection {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 8px;
+	width: 17.6vw;
+	height: 48vh;
+	background: rgba(0,0,0,0.3);
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 1px solid #333;
+}
+
+#infoSection {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 31vw;
+	height: 45vh;
+	border: black solid 1px;
+	border-radius: 40px;
+}
+
+#offshoreImg, #bankImg, #walletImg, #societyImg{
+	margin: 0 10px 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#bankImg{height: 35px;}
+#walletImg{height: 35px;}
