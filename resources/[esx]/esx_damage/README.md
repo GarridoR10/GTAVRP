@@ -1,0 +1,16 @@
+# esx_damage
+
+[REQUIREMENTS]
+  
+* ESX Support
+  * es_extended
+  * essentialmode
+
+[INSTALLATION]
+
+1) CD in your resources/[esx] folder
+
+2) Add this in your server.cfg :
+``start esx_damage``
+
+lua
