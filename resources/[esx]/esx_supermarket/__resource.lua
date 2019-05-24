@@ -12,6 +12,8 @@ files {
 	'html/iransans.otf',
 	
 	'html/img/alive_chicken.png',
+	'html/img/armor.png',
+	'html/img/bag.png',
 	'html/img/bait.png',
 	'html/img/bandage.png',
 	'html/img/beer.png',
@@ -60,6 +62,7 @@ files {
 	'html/img/phone.png',
 	'html/img/plus.png',
 	'html/img/sandwich.png',
+	'html/img/tools.png',
 	'html/img/tequila.png',
 	'html/img/vodka.png',
 	'html/img/water.png',
