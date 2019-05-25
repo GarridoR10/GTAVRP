@@ -44,7 +44,7 @@ Config.ShowGarageSpacer3 = true -- If true it shows Spacer 3 in the List | Don't
 Config.ShowPoundSpacer2 = false -- If true it shows Spacer 2 in the List | Don't use if spacer3 is set to true.
 Config.ShowPoundSpacer3 = true -- If true it shows Spacer 3 in the List | Don't use if Spacer2 is set to true.
 
-Config.MarkerType   = 27
+Config.MarkerType   = 1
 Config.DrawDistance = 100.0
 
 Config.BlipGarage = {
@@ -76,23 +76,23 @@ Config.BlipJobPound = {
 }
 
 Config.PointMarker = {
-	r = 0, g = 155, b = 0,     -- Green Color
-	x = 2.0, y = 2.0, z = 2.0  -- Standard Size Circle
+	r = 0, g = 200, b = 0,     -- Green Color
+	x = 2.0, y = 2.0, z = 0.5  -- Standard Size Circle
 }
 
 Config.DeleteMarker = {
-	r = 155, g = 0, b = 0,     -- Red Color
-	x = 4.0, y = 4.0, z = 1.0  -- Medium Size Circle
+	r = 200, g = 0, b = 0,     -- Red Color
+	x = 4.0, y = 4.0, z = 0.5  -- Medium Size Circle
 }
 
 Config.PoundMarker = {
-	r = 0, g = 0, b = 100,     -- Blue Color
-	x = 2.0, y = 2.0, z = 1.0  -- Standard Size Circle
+	r = 0, g = 0, b = 200,     -- Blue Color
+	x = 2.0, y = 2.0, z = 0.5  -- Standard Size Circle
 }
 
 Config.JobPoundMarker = {
-	r = 155, g = 0, b = 0,     -- Red Color
-	x = 2.0, y = 2.0, z = 1.0  -- Standard Size Circle
+	r = 200, g = 0, b = 0,     -- Red Color
+	x = 2.0, y = 2.0, z = 0.5  -- Standard Size Circle
 }
 
 -- Start of Jobs
@@ -684,6 +684,12 @@ Config.PrivateCarGarages = {
 		GaragePoint = { x = -616.74, y = 56.38, z = 42.736 },
 		SpawnPoint = { x = -620.588, y = 60.102, z = 42.736, h = 109.316 },
 		DeletePoint = { x = -621.128, y = 52.691, z = 42.735 }
+	},
+	Garage_BarkleyHouse = {
+		Private = "BarkleyHouse",
+		GaragePoint = { x = -1101.59, y = 354.12, z = 67.49 },
+		SpawnPoint = { x = -1095.96, y = 363.13, z = 68.61, h = 1.98 },
+		DeletePoint = { x = -1101.24, y = 361.36, z = 67.56 }
 	},
 	-- End of Single Garages
 	-- Start of VENT Custom Garages
