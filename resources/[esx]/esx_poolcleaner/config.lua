@@ -1,7 +1,7 @@
 Config                            = {}
 Config.DrawDistance               = 100.0
 Config.nameJob                    = "poolcleaner"
-Config.nameJobLabel               = "Nettoyeur de piscine"
+Config.nameJobLabel               = "Poolcleaning Service"
 Config.platePrefix                = "POOL"
 Config.Locale                     = 'fr'
 
@@ -13,10 +13,10 @@ Config.Blip = {
 Config.Vehicles = {
 	Truck = {
 		Spawner = 1,
-		Label = 'Camionnette',
-		Hash = "utillitruck3",
+		Label = 'Service Vehicle',
+		Hash = "bison2",
 		Livery = 0,
-		Trailer = "none",
+		Trailer = "TrailerSmall",
 	}
 }
 
@@ -29,8 +29,8 @@ Config.Zones = {
     Type    = 27,
 	BlipSprite = 389,
 	BlipColor = 5,
-	BlipName = Config.nameJobLabel.." : Vestiaire",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au vestiaire',
+	BlipName = Config.nameJobLabel.." : Wardrobe",
+	hint = 'Press~INPUT_CONTEXT~ to change into work clothes',
   },
 
   VehicleSpawner = {
@@ -40,8 +40,8 @@ Config.Zones = {
 	Type  = 27,
 	BlipSprite = 389,
 	BlipColor = 5,
-	BlipName = Config.nameJobLabel.." : Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au garage',
+	BlipName = Config.nameJobLabel.." : Get Service Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to enter the garage',
   },
 
   VehicleSpawnPoint = {
@@ -58,8 +58,8 @@ Config.Zones = {
 	Type  = 27,
 	BlipSprite = 389,
 	BlipColor = 5,
-	BlipName = Config.nameJobLabel.." : Retour Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour ranger le véhicule',
+	BlipName = Config.nameJobLabel.." : Park Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to park your service vehicle',
   },
 
   Vente = {
@@ -69,19 +69,19 @@ Config.Zones = {
 	Type  = 27,
 	BlipSprite = 389,
 	BlipColor = 5,
-	BlipName = Config.nameJobLabel.." : Dépôt",
+	BlipName = Config.nameJobLabel.." : Deliver",
 
 	ItemTime = 500,
 	ItemDb_name = "contrat",
-	ItemName = "Facture",
+	ItemName = "Salvage",
 	ItemMax = 100,
 	ItemAdd = 1,
 	ItemRemove = 1,
 	ItemRequires = "contrat",
-	ItemRequires_name = "Facture",
+	ItemRequires_name = "Salvage",
 	ItemDrop = 100,
 	ItemPrice  = 50,
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour encaisser vos factures',
+	hint = 'Press ~INPUT_CONTEXT~ to exchange salvage items',
   },
 
 }
